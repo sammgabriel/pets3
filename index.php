@@ -11,9 +11,6 @@ session_start();
 
 //create and instance of the Base class
 $f3 = Base::instance();
-
-// Array of colors
-$f3->set('colors', array('pink', 'green', 'blue', 'orange'));
 //turn on fat free error reporting
 $f3->set('DEBUG',3);
 
